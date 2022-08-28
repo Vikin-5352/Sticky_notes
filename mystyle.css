@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');body{
+    margin:0;
+    background:#6FEDD6;
+}
+.app
+{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,240px);
+    padding:24px;
+    gap:10px;
+    box-sizing:border-box;
+}
+.note
+{
+    box-sizing:border-box;
+    height:200px;
+    padding:16px;
+    outline:none;
+    border:none;
+    border-style:none;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.27);
+    resize:none;
+    font-family:Poppins,Sans-Serif;
+    font-size:16px;
+}
+.add-note
+{
+    height:200px;
+    font-size:80px;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.27);
+    background:rgba(0,0,0,0.2);
+    color:rgba(0,0,0,0.5);
+    transition:background 0.5s;
+}
+.add-note:hover
+{
+    cursor:pointer;
+    background:rgba(0,0,0,0.3);
+}
