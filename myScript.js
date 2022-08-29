@@ -78,7 +78,7 @@ function addNotes()
   //creating the random id number and empty string for the content
   const noteObject={
       id:Math.floor(Math.random() * 1000),
-      content:" "};
+      content:""};
   //created the new white space element 
   console.log("id: "+noteObject.id+" "+"content: "+typeof noteObject.content);
   const noteElement=createNotesElement(noteObject.id,noteObject.content);
